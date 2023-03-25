@@ -4,11 +4,11 @@ const appDir = dirname(require.main.filename);
 const request = require('request').defaults({ encoding: null });
 
 //import models
-const adminModel = require(appDir + '/models/admin');
-const kandidatModel = require(appDir + '/models/kandidat');
+const adminModel = require(appDir + '/src/models/admin');
+const kandidatModel = require(appDir + '/src/models/kandidat');
 
 //import lib
-const db = require(appDir + '/lib/database')
+const db = require(appDir + '/src/lib/database')
 
 class Admin {
 

@@ -14,7 +14,7 @@ require('dotenv').config({
     debug: true 
 })
 
-const handleUser = require('./lib/handleUser').main
+const handleUser = require('./src/lib/handleUser').main
 
 async function startServer() {
  

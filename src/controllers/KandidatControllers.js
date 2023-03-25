@@ -3,11 +3,11 @@ const { dirname } = require('path');
 const appDir = dirname(require.main.filename);
 
 //import lib
-const sections = require(appDir + '/lib/sections')
-const db = require(appDir + '/lib/database')
+const sections = require(appDir + '/src/lib/sections')
+const db = require(appDir + '/src/lib/database')
 
 //import models
-const kandidatModel = require(appDir + '/models/kandidat');
+const kandidatModel = require(appDir + '/src/models/kandidat');
 
 class Kandidat {
 
