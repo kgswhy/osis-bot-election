@@ -1,6 +1,6 @@
 const { dirname } = require('path');
 const appDir = dirname(require.main.filename);
-const c = require(appDir + '/controllers/')
+const c = require(appDir + '/src/controllers/')
 
 const textMessage = async (client, usersChat, usersMessage) => {
     

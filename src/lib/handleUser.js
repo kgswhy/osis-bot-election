@@ -2,7 +2,7 @@ const { dirname } = require('path');
 const appDir = dirname(require.main.filename);
 
 
-const r = require(appDir + '/routes/')
+const r = require(appDir + '/src/routes/')
 
 const main = async (client, usersChat, typeMessage) => {
     console.log(typeMessage)
